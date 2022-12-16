@@ -3,7 +3,7 @@
 ## Задача DAO слой
 
 ### Описание
-Попрактикуемся в работе с Spring JDBC, попутно закрепляя уже пройденные темы. Вам надо написать приложение для работы с БД, использую скрипты, который вы написали во [втором задании](https://github.com/ProsperousRF/Learning_Netology_sql-agg/README.md)
+Попрактикуемся в работе с Spring JDBC, попутно закрепляя уже пройденные темы. Вам надо написать приложение для работы с БД, использую скрипты, который вы написали во [втором задании](https://github.com/ProsperousRF/Learning_Netology_sql-agg)
 
 1. Создайте spring boot приложение, с зависимостями на два starter'а - `spring-boot-starter-jdbc` и `spring-boot-starter-web`
 
