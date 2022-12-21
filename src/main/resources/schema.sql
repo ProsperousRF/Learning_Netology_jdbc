@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS CUSTOMERS (
 
 CREATE TABLE IF NOT EXISTS ORDERS (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    date DATETIME NOT NULL, -- date DATE и у сиквела отвалится ж.па ;)
+    date DATETIME NOT NULL DEFAULT now(),
     customer_id INT NOT NULL,
     product_name VARCHAR(255) NOT NULL,
     amount INT NOT NULL CHECK (amount > 0),
